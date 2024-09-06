@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat";
+    background-image: url("extra/bg_index.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Crimson Text";
+    color: #283593;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: "Montserrat";
+    color: #00274C;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+header img {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    height: 10rem;
+}
+
+section {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+section input {
+    border: none;
+    border-radius: 1.5rem;
+    width: 30rem;
+    padding: 1rem 0.8rem;
+    margin-bottom: 1rem;
+    color: #748BBD;
+    font-size: 1rem;
+}
+
+section input:focus {
+    outline: none;
+    border-color: #283593;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 85, 0.5);
+}
+
+section input::placeholder {
+    color: #C0C0C0;
+}
+
+section button {
+    background-color: #283593;
+    color: #C0C0C0;
+    border: none;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    padding: 0.7rem 1.1rem;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: #00274C;
+    box-shadow: 0 4px 8px rgba(0, 0, 85, 0.2);
+    color: #C0C0C0;
+}
+
+.resultados-pesquisa {
+    width: 60rem;
+    height: 46vh;
+    overflow-y: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+}
+
+.item-resultado {
+    background: #FFFFFF;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 85, 0.3);
+}
+
+.item-resultado h2 {
+    color: #00274C;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.item-resultado a {
+    text-decoration: none;
+    color: #748BBD;
+}
+
+.item-resultado a:hover {
+    text-decoration: underline;
+}
+
+.descricao-meta {
+    color: #283593;
+    margin: 0.5rem 0;
+}
+
+footer {
+    font-family: "Montserrat";
+    background-color: #00274C;
+    color: #748BBD;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 90%;
+    max-width: auto;
+}
